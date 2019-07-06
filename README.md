@@ -1,6 +1,6 @@
-# Here is the live demo <a href="https://sasha071cheremisin.github.io/React-TodoList/" style="font-size: 40px">CLICK TO SEE DEMO</a>
+# Here is the live demo <a href="https://sasha071cheremisin.github.io/1-React-TodoList/" style="font-size: 40px">CLICK TO SEE DEMO</a>
 
-![alt-text](https://github.com/sasha071cheremisin/React-TodoList/blob/master/todoList.png)
+![alt-text](https://github.com/sasha071cheremisin/1-React-TodoList/blob/master/todoList.png)
 
 ### `npm start`
 
