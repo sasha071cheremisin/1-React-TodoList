@@ -1,0 +1,56 @@
+.app-todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    &__label {
+        cursor: pointer;
+        max-width: 75%;
+
+        &--done {
+            text-decoration: line-through;
+        }
+
+        &--important {
+            font-weight: bold;
+            color: cornflowerblue;
+        }
+    }
+
+    &__buttons-list {
+        display: flex;
+    }
+
+    &__button {
+        width: 30px;
+        height: 30px;
+        border-radius: 3px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 2.5px;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &--trash {
+            color: tomato;
+            border: 1px solid tomato;
+
+            &:hover {
+                color: white;
+                background: tomato;
+            }
+        }
+
+        &--exclamation {
+            color: #28a745;
+            border: 1px solid #28a745;
+
+            &:hover {
+                color: white;
+                background: #28a745;
+            }
+        }
+    }
+}

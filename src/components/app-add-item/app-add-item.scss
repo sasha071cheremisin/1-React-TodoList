@@ -1,0 +1,14 @@
+.app-add-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px 0 10px;
+
+    &__input {
+        margin-right: 10px;
+    }
+
+    &__button {
+        white-space: nowrap;
+    }
+}

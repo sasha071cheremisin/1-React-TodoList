@@ -1,0 +1,15 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px 0 10px;
+
+    &__title {
+        font-size: 26px;
+    }
+
+    &__info {
+        font-size: 14px;
+        color: gray;
+    }
+}
